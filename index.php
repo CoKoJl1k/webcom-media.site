@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+         <span class="sr-only">Открыть навигацию</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>  
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images\5.png"></a> 
+      </div>
+      <div class="collapse navbar-collapse" id="responsive-menu">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Портфолио </a></li>
+          <li><a href="#">Преимущества</a></li>  
+          <li><a href="#">Схема работы</a></li>
+          <li><a href="#">Отзывы</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#"><p>+375 (25) 123-45-67</p><p>+375 (25) 123-45-67</p></a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+<div id="carousel" class="carousel slide">
+  <!--Индикаторы слайдов-->
+  <ol class="carousel-indicators">
+    <li class="active" data-target="#carousel" data-slide-to="0"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li> 
+  </ol>
+  <!--Слайды-->
+  <div class="carousel-inner">
+    <div class="item active"> 
+      <img src="images/4.jpg" alt="">
+      <div class="carousel-caption">
+        <h1>Главный заголовок</h1>
+        <h3><p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p style="color:black;"> Sed fermentum diam quis arcu tincidunt, et fringilla leo egestas.</p><p style="color:black;"> Nullam tempus nulla tellus, ac vehicula sapien aliquam at.</p></h3>     
+        <button type="submit" class="btn btn-warning btn-lg">
+          Отправить заявку
+        </button> 
+      </div>
+    </div>
+    <div class="item">
+       <img src="images/2.jpg" alt="">
+      <div class="carousel-caption">
+        <h1>Второй слайд</h1>
+        <p>Описание второго слайда</p>   
+      </div>
+    </div>
+    <div class="item">
+       <img src="images/3.jpg" alt="">
+      <div class="carousel-caption">
+        <h1>Третий слайд</h1>
+        <p>Описание третьего слайда</p>   
+      </div>
+    </div>  
+  </div>
+
+  <!--Стрелки переключения слайдов-->
+  <a href="#carousel" class="left carousel-control" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a href="#carousel" class="right carousel-control" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+<div class="gorod" style="background:url(images/gorod.jpg);">
+<div class="container">
+<h1>Наша работа</h1>
+<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+<h4>Integer pulvinar orci a metus porttitor, vitae condimentum arcu semper.</h4>
+  <div class="row">
+    <div class="col-xs-6 col-sm-4">
+      <div class="thumbnail">
+      <img src="images/400.png" alt="">
+      <div class="caption">
+        <h3>Название работы</h3>
+        <p>Для вставки на сайтах и демонстрации внешнего вида контента. </p>
+      </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <div class="thumbnail">
+      <img src="images/400.png" alt="">
+      <div class="caption">
+        <h3>Название работы</h3>
+        <p>Для вставки на сайтах и демонстрации внешнего вида контента. </p>  
+      </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <div class="thumbnail">
+      <img src="images/400.png" alt="">
+      <div class="caption">
+        <h3>Название работы</h3>
+        <p>Для вставки на сайтах и демонстрации внешнего вида контента. </p>  
+      </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <div class="thumbnail">
+      <img src="images/400.png" alt="">
+      <div class="caption">
+        <h3>Название работы</h3>
+        <p>Для вставки на сайтах и демонстрации внешнего вида контента. </p>    
+      </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <div class="thumbnail">
+      <img src="images/400.png" alt="">
+      <div class="caption">
+        <h3>Название работы</h3>
+        <p>Для вставки на сайтах и демонстрации внешнего вида контента. </p>
+      </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <div class="thumbnail">
+      <img src="images/400.png" alt="">
+      <div class="caption">
+        <h3>Название работы</h3>
+        <p>Для вставки на сайтах и демонстрации внешнего вида контента. </p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+<h1>Почему мы</h1>
+<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+<h4>Integer pulvinar orci a metus porttitor, vitae condimentum arcu semper.</h4>
+  <div class="row">
+    <div class="col-xs-6 col-sm-3">
+    <i class="fa fa-television" aria-hidden="true" ></i>
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+    <i class="fa fa-magic" aria-hidden="true"></i>
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+    <i class="fa fa-rocket" aria-hidden="true"></i>
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+     <i class="fa fa-globe" aria-hidden="true"></i>
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3 ">
+    <i class="fa fa-wrench" aria-hidden="true"></i>
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+       <div class="col-xs-6 col-sm-3 ">
+        <span class="glyphicon glyphicon-book" style="font-size:200%;color:orange;padding:0 0 0 110px;"></span>
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3"> 
+    <span class="glyphicon glyphicon-edit" style="font-size:200%;color:orange;padding:0 0 0 110px;"></span>
+   
+        <h3>Преимущество 8</h3>
+        <p>Для вставки на сайтах</p>
+        <p>и демонстрации внешнего вида </p>
+        <p>Для вставки на руку.</p>
+    </div>
+  </div>
+</div>
+<h1>Оставте отзыв</h1>
+<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+<h4>Integer pulvinar orci a metus porttitor, vitae condimentum arcu semper.</h4>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 ">   
+        <h3 style="color:#FF8A16;font-weight:600;">НАШ АДРЕС</h3>
+        <p style="color:#9B9B9B;font-size:17px;">г. Минск, ул. Скрыганова, 6А,4 этаж</p>
+        <h3 style="color:#FF8A16;font-weight:600;">ЗВОНИТЕ</h3>
+        <p style="color:#9B9B9B;font-size:17px;">+375 (29) 123-45-67, +375 (33) 123-45-67</p>
+        <h3 style="color:#FF8A16;font-weight:600;">ПИШИТЕ</h3>
+        <p style="color:#9B9B9B;font-size:17px;">info@promo-webcom.by</p>    
+    </div>
+    <div class="col-xs-12 col-sm-6"> 
+
+
+
+<?php
+  $msg = "";
+// if upload button
+  if (isset($_POST['image'])) {
+    $target = "images/".basename($_FILES['image']['name']);
+    //now let's move the uploaded image into the folder:images
+    if (move_uploaded_file($_FILES['tmp_name']['name'], $target)) {
+      $msg = "Image uploaded successfully";
+    } else {
+      $msg = "There was a problem uploading image";
+    }
+  }
+?>
+
+<?php
+      if (isset($_POST['upload'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $dolg = $_POST['dolg'];
+    $text = $_POST['text'];
+    $image = $_FILES['image']['name'];
+
+            require 'register.php';
+
+            
+            mysqli_select_db($db,"userss");
+            
+            mysqli_query($db, "INSERT INTO `userss` (`name`, `email`, `dolg`,`text`,`image`) VALUES ('$name', '$email', '$dolg','$text','$image')");
+            $id = mysqli_insert_id($db);
+            echo "<script language=javascript>window.alert('Вы успешно оставили коментарий')</script>";
+            echo '<script>location.replace("coment.php");</script>';      
+  }
+?>
+
+
+
+
+
+
+
+
+          <form  method="post" action="index.php" enctype="multipart/form-data">
+          <div>
+          <h3 style="color:black;font-weight:600;text-align:left;">ВАШЕ ИМЯ</h3>
+          </div>
+          <div>
+          <input type="text" name="name" placeholder="Иванов Иван" required>
+          </div>
+          <div>
+          <h3 style="color:black;font-weight:600;text-align:left;">E-MAIL</h3>
+          </div>
+          <div>
+          <input type="text" name="email" placeholder="example@mesite.com" required>
+          </div>
+          <div>
+          <h3 style="color:black;font-weight:600;text-align:left;">Ваша должность</h3>
+          </div>
+          <div>
+          <input type="text" name="dolg" placeholder="Должность" required>
+          </div>
+          <div>
+          <h3 style="color:black;font-weight:600;text-align:left;">ОТЗЫВ</h3>
+          </div>
+          <div>
+          <textarea type="textarea" name="text" placeholder="Ваше сообщение" cols="63" rows="4" required></textarea>
+          </div>
+
+          <input type="hidden" name="size" value="1000000">
+          <div style="text-align:left;">
+          <input type="file" name="image">
+
+    
+
+          <span >ФОТО</span>
+
+          </div>
+          <div style="text-align:right;margin-bottom:20px;">
+          <button type="submit" class="btn btn-warning" name="upload">Отправить</button>
+          </div>
+          </form>
+    </div>
+  </div>
+</div>
+
+<footer class="footer" style="background:#28363D">
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-sm-4 ">
+        <p><a class="navbar-brand" href="#"><img src="images\5.png"></a></p>
+        <p style="color:white;margin-top:90px;text-align:left;padding-left:20px;">Дисклеймер компании</p>
+    </div>
+    <div class="col-xs-6 col-sm-4"> 
+        <h1 style="color:white;font-size:13px;font-weight:600;letter-spacing:1px;">МЫ В СОЦСЕТЯХ</h1>
+        <p><a href="#"><i class="fa fa-instagram" aria-hidden="true" style="color:white;padding:10px;"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true" style="color:white;padding:10px;"></i></a><a href="#"><i class="fa fa-facebook" aria-hidden="true" style="color:white;padding:10px;"></i></a></p>
+    </div>
+    <div class="col-xs-6 col-sm-4" > 
+        <h1 style="color:white;font-size:13px;font-weight:600;letter-spacing:1px;">АДРЕС</h1>
+        <p style="color:white;">г. Минск, ул. Скрыганова, 6А,</p>
+        <p style="color:white;">4 этаж</p>   
+    </div>
+  </div>
+</div>
+<div class="copy" style="background:#1E292F;border-bottom: 2px solid #FF8108;" >
+  <div class="container">
+    <div class="col-xs-12 col-sm-12"> 
+        <h2 style="color:white;font-size:13px;letter-spacing:3px;">COPYRIGTS 2015 @ WEBCOM MEDIA</h2>
+    </div>
+  </div>
+</div>
+</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
